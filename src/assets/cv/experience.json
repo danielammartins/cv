@@ -1,0 +1,16 @@
+ [
+    {
+      "job_title": "Software Developer",
+      "company": "Volkswagen Group Digital Solutions",
+      "start_year": "2022",
+      "end_year": "Present",
+      "description": "Developed and maintained applications within the Volkswagen ecosystem using React, Go, and AWS. Built scalable front-end interfaces, implemented backend services, and deployed cloud-native solutions leveraging AWS infrastructure. Ensured performance, security, and reliability while collaborating with cross-functional teams to deliver high-quality digital products aligned with VW standards."
+    },
+   {
+     "job_title": "Passager Assistance",
+     "company": "Lisbon Airport",
+     "start_year": "2018",
+     "end_year": "2019",
+     "description": "Responsible for providing assistance to passagers across multiple areas."
+   }
+  ]

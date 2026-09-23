@@ -1,0 +1,27 @@
+{
+    "email": {
+      "field": "email",
+      "value": "martins.danielamadeira@gmail.com"
+    },
+    "date_of_birth": {
+      "field": "date of birth",
+      "value": "20/12/1997"
+    },
+    "phone": {
+      "field": "phone",
+      "value": "+351 933 594 649"
+    },
+    "github": {
+      "field": "github",
+      "value": "danielammartins"
+    },
+    "drivers_license": {
+      "field": "driver's license",
+      "value": "A2 + B"
+    },
+    "location": {
+      "field": "location",
+      "value": "Lisboa, Portugal"
+    }
+
+}
