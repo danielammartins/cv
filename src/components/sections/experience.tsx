@@ -14,6 +14,7 @@ import {
 } from "./common-styles.tsx";
 
 type Job = {
+	id: number;
 	job_title: string;
 	company: string;
 	start_year: string;
@@ -41,7 +42,7 @@ const Education = () => {
 					<>
 					{index > 0 ? <Separator /> : null}
 
-					<Item key={index}>
+					<Item key={job.id}>
 						<SectionFlexContainer>
 							<ItemTitle>{job.company}</ItemTitle>
 							<ItemDates> {job.start_year} – {job.end_year}</ItemDates>

@@ -14,6 +14,7 @@ import {
 } from "./common-styles.tsx";
 
 type EducationItem = {
+	id: number
 	degree: string;
 	university: string;
 	start_year: string;
@@ -40,7 +41,7 @@ const Education = () => {
 					<>
 						{index > 0 ? <Separator /> : null}
 
-						<Item key={index}>
+						<Item key={item.id}>
 							<SectionFlexContainer>
 								<ItemTitle>{item.university}</ItemTitle>
 								<ItemDates> {item.start_year} – {item.end_year}</ItemDates>
