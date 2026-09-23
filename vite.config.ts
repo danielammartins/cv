@@ -4,4 +4,6 @@ import linaria from '@wyw-in-js/vite';
 
 export default defineConfig({
   plugins: [react(), linaria()],
+  base: '/cv'
 })
+
