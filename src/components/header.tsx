@@ -9,7 +9,6 @@ const Header = () => {
                 <HeaderLink href={"#personal"}>Personal</HeaderLink>
                 <HeaderLink href={"#experience"}>Experience</HeaderLink>
                 <HeaderLink href={"#education"}>Education</HeaderLink>
-                <HeaderLink href={"#"}>Contact</HeaderLink>
             </MenuItemsContainer>
         </HeaderContainer>
     )
