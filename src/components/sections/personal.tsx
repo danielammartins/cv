@@ -1,6 +1,7 @@
 import {styled} from "@linaria/react";
 import raw from "../../assets/cv/personal.json";
 import {BREAKPOINTS} from "../../utils/breakpoints.ts";
+import {Section} from "./common-styles.tsx";
 
 type InfoItem = {
     field: string;
@@ -48,11 +49,6 @@ const Personal = () => {
     )
 }
 
-const Section = styled.div`
-    display: flex;
-    flex-direction: column;
-`;
-
 const SectionHeader = styled.div`
     display: flex;
 
@@ -68,6 +64,10 @@ const Item = styled.div`
     gap: 8px;
     margin-bottom: 32px;
     grid-column: 2;
+
+    @media only screen and (max-width: ${BREAKPOINTS.M.MAX}) {
+        margin-bottom: 24px;
+    }
 `;
 
 const Title = styled.p`
@@ -91,6 +91,8 @@ const SectionContent = styled.div`
     @media only screen and (max-width: ${BREAKPOINTS.M.MAX}) {
         padding-left: 0;
         margin-top: 16px;
+        flex-direction: column;
+        gap: 0;
     }
 `;
 

@@ -83,4 +83,8 @@ export const SectionFlexContainer = styled.div`
 export const Section = styled.div`
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: ${BREAKPOINTS.L.MAX}) {
+        margin-bottom: 36px;
+    }
 `;
